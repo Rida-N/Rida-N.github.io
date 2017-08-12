@@ -24,6 +24,7 @@ body {
   }
   @include mobile {
     background-image:url({{ site.baseurl }}images/BainbridgeIslandSmaller.jpg);
+    background-position:center;
   }
   background-attachment: fixed;
   background-size:cover;
