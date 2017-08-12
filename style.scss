@@ -25,6 +25,8 @@ body {
   @include mobile {
     background-image:url({{ site.baseurl }}images/BainbridgeIslandSmaller.jpg);
     background-origin:border-box;
+      background-attachment: fixed;
+        background-size:contain;
   }
   background-attachment: fixed;
   background-size:cover;
