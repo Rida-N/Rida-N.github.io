@@ -1,3 +1,8 @@
+---
+layout: post
+title: "While learning(some tips to mark)"
+published: true
+---
 Today I read a book written by Scott Young. Some point of views of this book remind me of many important knowledge about learning which I learned during my high school days.
 
 [Book here.(At the bottom of the page)](https://t.co/SKqaZK544K)  

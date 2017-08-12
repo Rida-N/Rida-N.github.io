@@ -19,9 +19,12 @@ html {
 
 body {
 	background :$white url({{ site.baseurl }}images/BainbridgeIsland.jpg) center no-repeat;
+  @media screen and (max-width: 2560px) {
+    background-image:url({{ site.baseurl }}images/BainbridgeIslandSmall.jpg);
+  }
   background-attachment: fixed;
   background-size:cover;
-  font: 1.6rem $helvetica;
+  font: 1.5rem $helvetica;
   color: $darkGray;
   line-height:1.6;
   -webkit-font-smoothing: antialiased
