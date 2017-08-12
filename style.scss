@@ -18,7 +18,9 @@ html {
 }
 
 body {
-	background: $white;
+	background :$white url({{ site.baseurl }}images/BainbridgeIsland.jpg) center no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
   font: 1.6rem $helvetica;
   color: $darkGray;
   line-height:1.6;
