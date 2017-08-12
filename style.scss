@@ -22,6 +22,10 @@ body {
   @media screen and (max-width: 2560px) {
     background-image:url({{ site.baseurl }}images/BainbridgeIslandSmall.jpg);
   }
+  @include mobile {
+    background:$white url({{ site.baseurl }}images/BainbridgeIslandSmall.jpg) -1050px -800px no-repeat;
+    background-attachment: fixed;
+  }
   background-attachment: fixed;
   background-size:cover;
   font: 1.5rem $helvetica;
