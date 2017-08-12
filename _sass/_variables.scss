@@ -1,0 +1,31 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+
+// Reds
+$red:#967;
+$lightRed:#cbb;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Font stacks
+$helvetica: Rubik, Lato, "PingFang SC", "Source Han Sans GB", "Noto Sans", "Microsoft YaHei", "WenQuanYi Micro Hei", Helvetica, Arial, sans-serif;
+$helveticaNeue: Rubik, Lato, "PingFang SC", "Source Han Sans GB", "Noto Sans", "Microsoft YaHei", "WenQuanYi Micro Hei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
