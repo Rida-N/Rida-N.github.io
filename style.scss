@@ -30,7 +30,7 @@ body {
   -webkit-font-smoothing: antialiased
 }
 
-@include mobile {
+@media screen and (max-width: 768) {
   body:before {
   content: ' ';
   position: fixed;
@@ -39,7 +39,10 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: $white url({{ site.baseurl }}images/BainbridgeIslandSmaller.jpg) center no-repeat;
+  background: $white url({{ site.baseurl }}images/BainbridgeIslandSmall.jpg) center 0 no-repeat;
+  @include mobile {
+    background: $white url({{ site.baseurl }}images/BainbridgeIslandSmaller.jpg) center 0 no-repeat;
+  }
   background-size: cover;
   }  
 }
