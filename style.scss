@@ -142,6 +142,13 @@ img {
   max-width: none;
 }
 
+.ordinaryiframe {
+  width:500px;
+  @include mobile {
+    width:300px;
+  }
+}
+
 .date {
   font-style: italic;
   color: $gray;
