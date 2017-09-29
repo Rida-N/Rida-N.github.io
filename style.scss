@@ -50,6 +50,12 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  .posts ,.page{
+    padding:10px 20px;
+    background: rgba(255,255,255,0.3);
+    border-radius:2px;
+    box-shadow: 0px 0px 2px #999;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -211,7 +217,8 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 35px;
+    box-shadow: 0.5px 0.5px 3px #fff;
   }
 }
 
@@ -320,3 +327,44 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+/* [Portfolio] page start↓ */
+.gallery_box{
+  overflow: hidden;
+}
+.gallery_box a{
+  margin: 10px 30px 0 0;
+  width: 180px;
+  float: left;
+  :hover{
+    opacity:0.8;
+  }
+  img{
+    border-radius:10px;
+    box-shadow: 1px 1px 5px #999;
+  }
+}
+.portfolio-list{
+  padding-bottom:30px;
+  .myart{
+    width:500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #999;
+  }
+  .myart:hover{
+    opacity:0.8;
+  }
+}
+
+/* [Portfolio] page end↑ */
+
+/* [About] page start↓ */
+.about-main{
+  overflow: hidden;
+  }
+.image-right{
+  float: right;
+  margin-right:150px;
+  transform: rotate(7deg);
+}
+/* [About] page end↑ */
