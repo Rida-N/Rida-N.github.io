@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background :$white url({{ site.baseurl }}images/BainbridgeIsland.jpg) center no-repeat;
+	background :$white url({{ site.baseurl }}/images/BainbridgeIsland.jpg) center no-repeat;
   @media screen and (max-width: 2560px) {
-    background-image:url({{ site.baseurl }}images/BainbridgeIslandSmall.jpg);
+    background-image:url({{ site.baseurl }}/images/BainbridgeIslandSmall.jpg);
   }
   background-attachment: fixed;
   background-size:cover;
@@ -39,7 +39,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: $white url({{ site.baseurl }}images/BainbridgeIslandSmaller.jpg) center no-repeat;
+  background: $white url({{ site.baseurl }}/images/BainbridgeIslandSmaller.jpg) center no-repeat;
   background-size:100vw 100vh;
   }  
 }
