@@ -3,15 +3,19 @@ layout: page
 title: About
 permalink: /about/
 ---
-Chinese. From LianYunGang, JiangSu.  
-30%Programmer+20%Designer+50%Slacker  
-I love all things that are simple and graceful.
+<div class="about-main">
+<img src="../images/me-sketch.png" class="image-right" style="width:150px" alt="">
+<p>Chinese. From LianYunGang, JiangSu. <br>
+30%Programmer+20%Designer+50%Slacker <br> 
+I love all things that are simple and graceful.</p>
+</div>
 
-### More Information
+### More Information 
 
-I'm now working as a software engineer in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  
+I'm now working as a software engineer in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
 If you also like painting, photography, jogging, guitar, drums, reading or singing, feel free to say Hello to me :)
-
-### Contact me
+<br><br>
+### Contact me 
 
 [im@rida.site](mailto:im@rida.site)
+
