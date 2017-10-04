@@ -24,7 +24,7 @@ body:not(.home){
     }
   }
 body {
-	background :$white ;
+	background: linear-gradient($white 75%,$waterBlue 160%) ;
   background-attachment: fixed;
   background-size:cover;
   font: 1.5rem $helvetica;
