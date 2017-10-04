@@ -3,19 +3,16 @@ layout: page
 title: Photography
 permalink: /photography/
 ---
-<div class="draws">
-	 <p>In progress...</p>
-
-  {% for post in site. %}
-    <article class="">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+<div class="photos">
+<p>This is a selected collection of my photography works.</p>
+<div class="gallery_box">
+  {% for post in site.categories.photos %}
+    <a href="{{ post.url }}" title="{{ post.title }}">
+      <figure>
+          <img class="square" src="{{ post.image.thumbnail }}" alt="">
+         <!-- <figcaption>{{ post.excerpt }}</figcaption> -->
+        </figure>
+    </a>
   {% endfor %}
+</div>
 </div>
