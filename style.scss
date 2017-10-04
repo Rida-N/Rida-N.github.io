@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import 'lazyload';
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -34,6 +35,9 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+  body{
+    background: linear-gradient($lightPink -20%,$white 25%) ;
+  }
   body:not(.home):before {
   content: ' ';
   position: fixed;
@@ -361,11 +365,17 @@ footer {
   :hover{
     opacity:0.8;
   }
+  .square{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+  }
   img{
     border-radius:10px;
     box-shadow: 1px 1px 5px #999;
   }
 }
+
 .portfolio-list{
   padding-bottom:30px;
   .myart{
