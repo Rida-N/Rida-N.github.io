@@ -419,6 +419,10 @@ table.normal{
      margin-left: 60px;
      width:450px;
      border: 1px solid #ccc;
+    @include mobile {
+      margin:auto ;
+      width:80vw;
+    }
 }
 table.normal caption{
     text-align: left;
