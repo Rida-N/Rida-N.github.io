@@ -15,9 +15,8 @@ permalink: /about/
 
 ### More Information 
 
-I'm now working as a software engineer in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
-If you also like painting, photography, jogging, guitar, drums, reading or singing, feel free to say Hello to me :)
-<br><br>
+<p style="margin: 10px 30px 30px 20px;">I'm now working as a software engineer in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
+If you also like painting, photography, jogging, guitar, drums, reading or singing, feel free to say Hello to me :)</p>
 
 ### My Skills
 <li class="tableli">The programming languages I've been working with.</li>
