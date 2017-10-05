@@ -5,12 +5,14 @@ permalink: /about/
 ---
 <div class="about-main">
 <img src="../images/me-sketch.png" class="image-right" style="width:150px" alt="">
-<h4>Rida Zhang</h4>
+<div class="box-right">
+	<h4>Rida Zhang</h4>
 <ul>
 <li>Chinese. From LianYunGang, JiangSu.</li>
 <li>30% Programmer + 20% Designer + 50% Slacker.</li>
 <li>I love all things that are simple and graceful.</li>
 </ul>
+</div>
 </div>
 
 ### More Information 
