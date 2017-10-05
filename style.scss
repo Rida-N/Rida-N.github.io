@@ -461,6 +461,7 @@ table.normal progress{
 table.certification{
     width:550px;
     @include mobile {
+      margin:0;
       width:80%;
     }
 } 
