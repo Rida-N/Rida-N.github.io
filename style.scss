@@ -112,7 +112,7 @@ p {
   margin: 15px 0;
 }
 
-a {
+a{
   color: $red;
   text-decoration: none;
   font-weight:500;
@@ -421,37 +421,81 @@ footer {
 table.normal{
      margin-left: 60px;
      width:450px;
-     border: 1px solid #ccc;
+     border-collapse:separate;
+    border-spacing:7px;
     @include mobile {
-      margin:auto ;
-      width:80vw;
+      margin:auto;
+      width:80%;
     }
 }
 table.normal caption{
     text-align: left;
     padding:10px 0 20px 0;
 }
-table.normal tbody{
+table.normal th,td{
+    border-radius:5px;
+    /*border: 1px solid #ccc;*/
+    padding:2px 15px;
+    vertical-align:middle; 
 }
 
 table.normal th{
-    text-align: left;
-     border: 1px solid #ccc;
-     padding:5px 15px;
+    background: rgba(220,210,220,0.2);
+    text-align: left;   
 }
 table.normal td{
-    text-align: center;
-     border: 1px solid #ccc;
-     padding:5px 15px;
+   text-align: left;
 }
 
 .tableli{
-    padding:20px 0 20px 20px ;
+    padding:20px 0 10px 20px ;
 }
 
-progress{
+table.normal progress{
   background-color: rgb(220,210,220);
   border: 0;
-  height: 8px;
+  height: 5px;
   border-radius: 9px;
+}
+
+table.certification{
+    width:550px;
+    @include mobile {
+      width:80%;
+    }
+} 
+table.certification td{
+    margin:0;
+    font-weight:500;
+} 
+
+.certification{
+  /*img{
+    padding:0;
+    margin:0;
+    width:25px;
+    height:25px;
+    border-radius:20px;
+    box-shadow: 0px 0px 2px #999;
+  }*/
+  a{
+    all: unset;
+    padding:0;
+    border:0;
+    margin:0;
+  }
+  a::after{
+    content:'';/*何も入れない*/
+    display: inline-block;/*忘れずに！*/
+    width: 15px;/*画像の幅*/
+    height: 15px;/*画像の高さ*/
+    background-image: url(images/icon/icon_link.svg);
+    background-size: contain;
+    vertical-align: middle;
+    margin:0 5px;
+  }
+}
+
+*:target{
+background-color: rgb(220,210,220);
 }

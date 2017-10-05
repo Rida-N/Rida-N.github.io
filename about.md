@@ -17,10 +17,10 @@ permalink: /about/
 
 ### More Information 
 
-<p style="margin: 10px 15px 30px 20px;">I'm now working as a software engineer in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
-If you also like painting, photography, jogging, guitar, drums, reading or singing, feel free to say Hello to me :)</p>
+<p style="margin: 20px 15px 30px 20px;">I'm now working as a freelance Web Developer and Software Engineer (3+ years) in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
+If you also like painting, photography, jogging, guitar, drums, reading or singing, feel free to <a href="#contact">say Hello </a> to me :)</p>
 
-### My Skills
+<h3 style="margin-bottom:0px;">My Skills</h3>
 <li class="tableli">The programming languages I've been working with.</li>
 <table class="normal">
 	<tbody>
@@ -47,7 +47,7 @@ If you also like painting, photography, jogging, guitar, drums, reading or singi
 	<tr>
 		<th>SQL</th>
 		<td><progress value="85" max="100"/></td>
-	</tr> 
+	</tr>
 	</tbody>
 </table>
 <li class="tableli">The developing tools I've been familiar with.</li>
@@ -121,7 +121,37 @@ If you also like painting, photography, jogging, guitar, drums, reading or singi
 	</tbody>
 </table>
 <br>
-### Contact me / Hire me
 
-[im@rida.site](mailto:im@rida.site)
+### Certification
+
+<table class="certification normal">
+	<tbody>
+	<tr>
+		<th><a href="http://html5exam.jp/">HTML5 Professional Certification (Ver2.0)</a></th>
+		<td>Level.1 </td>
+		<td style="background: url(../images/certi/lv1.gif) left no-repeat; background-size:25px 25px;"></td>
+	</tr>
+	<tr>
+		<th><a href="http://www.sikaku.gr.jp/web/wc/ind/about/">Web Creator Skills Qualification</a></th>
+		<td>Expert</td>
+		<td style="background: url(../images/certi/webexpert.jpeg) left no-repeat; background-size:25px 25px;"></td>
+	</tr>
+	<tr>
+		<th><a href="http://www.jlpt.jp/e/index.html">JLPT (Japanese-Language Proficiency Test)</a></th>
+		<td>N1</td>
+	</tr> 
+	<tr>
+		<th>TOEIC</th>
+		<td>780</td>
+	</tr>
+	</tbody>
+</table>
+
+### Education
+<li class="tableli">Bachelor degree</li>
+<p style="margin: 0 60px;"><strong>2009 - 2013 • HOHAI UNIVERSITY • Computer Science And Technology</strong></p>
+
+<br>
+<h3 id="contact"> Contact me / Hire me </h3>
+<a style="padding-left: 30px;" href="mailto:im@rida.site">im@rida.site</a>
 
