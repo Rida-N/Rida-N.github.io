@@ -17,7 +17,7 @@ permalink: /about/
 
 ### More Information 
 
-<p style="margin: 20px 15px 30px 20px;">I'm now working as a Web Developer and Software Engineer (3+ years) in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
+<p style="margin: 20px 15px 30px 20px;">I'm now working as a freelance Web Developer and Software Engineer (3+ years) in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
 If you also like painting, photography, jogging, guitar, drums, reading or singing, feel free to <a href="#contact">say Hello </a> to me :)</p>
 
 <h3 style="margin-bottom:0px;">My Skills</h3>
