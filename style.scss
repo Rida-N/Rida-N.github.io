@@ -33,10 +33,6 @@ body {
 
 @media screen and (max-width: 1024px) {
   body:before{
-  background: linear-gradient($white 75%, $waterBlue 130%) ;
-  background-attachment: fixed;
-  }
-  body:not(.home):before {
   content: ' ';
   position: fixed;
   z-index: -1;
@@ -44,8 +40,11 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient($lightPink -100%,$white 50%,$white 75%, $waterBlue 130%) ;
+  background: linear-gradient($white 75%, $waterBlue 130%) ;
   background-size:100vw 100vh;
+  }
+  body:not(.home):before {
+  background: linear-gradient($lightPink -100%,$white 50%,$white 75%, $waterBlue 130%) ;
   }  
 }
 
