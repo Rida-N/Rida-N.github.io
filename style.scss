@@ -29,8 +29,19 @@ body {
   color: $darkGray;
   line-height:1.6;
   -webkit-font-smoothing: antialiased;
+    -webkit-animation: bgbody 1.5s ease;
+    -o-animation: bgbody 1.5s ease;
+    animation: bgbody 1.5s ease;
+    }
+@keyframes bgbody {
+    0%{
+        opacity: 0;
+        background-color: #ffffff;
+    }
+    100%{
+        opacity: 1;
+    }
 }
-
 @media screen and (max-width: 1024px) {
   body:before{
   content: ' ';
