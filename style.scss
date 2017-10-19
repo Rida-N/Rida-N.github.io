@@ -19,7 +19,7 @@ font-size: 10px;
 }
 
 body:not(.home){
-background: linear-gradient($lightPink -50%,$white 25%,$white 75%, $waterBlue 150%) ;
+background: linear-gradient($lightPink -100%,$white 25%,$white 75%, $waterBlue 150%) ;
 background-attachment: fixed;
 -webkit-animation: bgbody 1.5s ease;
 -o-animation: bgbody 1.5s ease;
@@ -58,7 +58,7 @@ background: linear-gradient($white 75%, $waterBlue 130%) ;
 background-size:100vw 100vh;
 }
 body:not(.home):before {
-background: linear-gradient($lightPink -100%,$white 50%,$white 75%, $waterBlue 130%) ;
+background: linear-gradient($lightPink -100%,$white 25%,$white 75%, $waterBlue 130%) ;
 }  
 }
 
@@ -308,31 +308,35 @@ color: $red;
 }
 
 #homeContent{
-  .banner{
-    overflow: hidden;
-      p{
-      vertical-align:bottom;
-      margin: 10px 30px 0 0;
-      font-weight: 300;
-      font-size: 80px;
-      float: left;
-      }
-      a{
-      color:#000;
-      :hover{
-      color:$lightRed;
-      }
-      }
-      .img{
-        @include mobile {
-          width:100vw; 
-          height:110vw; 
-          }
-        float: right;
-        width:530px; 
-        height:580px; 
-      }
-  }
+.banner{
+overflow: hidden;
+p{
+vertical-align:bottom;
+margin: 10px 30px 0 0;
+font-weight: 300;
+font-size: 80px;
+float: left;
+}
+a{
+color:#000;
+:hover{
+color:$lightRed;
+}
+}
+.img{
+@include mobile {
+overflow: hidden;
+height:100vw;
+max-height:750px; 
+img{width:90vw; 
+max-width:530px;
+float: right;}
+}
+float: right;
+width:530px; 
+height:580px; 
+}
+}
 }
 
 .posts > .post {
