@@ -127,6 +127,10 @@ If you also like painting, photography, jogging, guitar, drums, reading or singi
 <table class="certification normal">
 	<tbody>
 	<tr>
+		<th><a href="https://ja.wikipedia.org/wiki/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93">Fundamental Information Technology Engineer Examination(基本情報技術者試験)</a></th>
+		<td colspan="2">Qualified</td>
+	</tr>
+	<tr>
 		<th><a href="http://html5exam.jp/">HTML5 Professional Certification (Ver2.0)</a></th>
 		<td>Level.1 </td>
 		<td style="background: url(../images/certi/lv1.gif) left no-repeat; background-size:25px 25px;"></td>
