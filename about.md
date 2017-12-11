@@ -146,7 +146,7 @@ If you also like painting, photography, jogging, guitar, drums, reading or singi
 	</tr> 
 	<tr>
 		<th>TOEIC</th>
-		<td>880</td>
+		<td>780</td>
 	</tr>
 	</tbody>
 </table>
