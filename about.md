@@ -17,7 +17,7 @@ permalink: /about/
 
 ### More Information 
 
-<p style="margin: 20px 15px 30px 20px;">I'm now working as a <b>freelance</b> Web Developer and Software Engineer (3+ years) in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
+<p style="margin: 20px 15px 30px 20px;">I'm now working as a <b>freelance</b> Web Developer and Software Engineer (4+ years) in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end.  <br>
 I have lots of interest -- painting, photography, jogging, swimming, palying drums, reading, singing... and last year I just started FREELINE and Ski, now I really feel the fun and wish I had started earlier! If we happen to have a lot in common, feel free to <a href="#contact">say Hello </a> to me :)</p>
 
 <h3 style="margin-bottom:0px;">My Skills</h3>
@@ -101,7 +101,7 @@ I have lots of interest -- painting, photography, jogging, swimming, palying dru
 	</tbody>
 </table>
 <li class="tableli">The FramWorks I've worked with.</li> 
-<p style="margin: 0 60px;"><strong>Struts2・Spring・Seasar2・.Net</strong></p>
+<p style="margin: 0 60px;"><strong>Struts2・Spring・Seasar2・.Net・Angular</strong></p>
 
 <li class="tableli">Other Skills.</li>
 <table class="normal">
