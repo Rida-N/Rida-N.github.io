@@ -131,6 +131,10 @@ I have lots of interests -- painting, photography, jogging, swimming, palying dr
 		<td colspan="2">Qualified</td>
 	</tr>
 	<tr>
+		<th><a href="https://www.pythonic-exam.com/exam/basic">Python 3 Engineer</a></th>
+		<td>Basic </td>
+	</tr>
+	<tr>
 		<th><a href="http://html5exam.jp/">HTML5 Professional Certification (Ver2.0)</a></th>
 		<td>Level.1 </td>
 		<td style="background: url(../images/certi/lv1.gif) left no-repeat; background-size:25px 25px;"></td>
