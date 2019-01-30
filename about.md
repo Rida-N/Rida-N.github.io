@@ -5,11 +5,11 @@ permalink: /about/
 ---
 <div class="about-main">
 <img src="../images/me-sketch.png" class="image-right" style="width:150px" alt="">
-<div class="box-right">
+<div>
 	<h4>Rida Zhang</h4>
 <ul>
 <li>Chinese. From LianYunGang, JiangSu.</li>
-<li>30% Programmer + 20% Designer + 50% Slacker.</li>
+<li>35% Front-End developer + 45% Back-End developer + 20% Designer.</li>
 <li>I love all things that are simple and graceful.</li>
 </ul>
 </div>
@@ -17,7 +17,7 @@ permalink: /about/
 
 ### More Information 
 
-<p style="margin: 20px 15px 30px 20px;">I'm now working as a <b>freelance</b> Web Developer and Software Engineer (4+ years) in Tokyo, Japan. Mainly engaged in Java and C#. I'm also very interested in front-end, and recently began engaged in a front-end project using Angular. <br>
+<p style="margin: 20px 15px 30px 20px;">I'm now working as a <b>freelance</b> Web Developer and Software Engineer (4+ years) in Tokyo, Japan. I'm interested in both front-end and back-end development. <br>
 I have lots of interests -- painting, photography, jogging, swimming, palying drums, reading, singing... and last year I just started FREELINE and Ski, now I really feel the fun and wish I had started earlier! If we happen to have a lot in common, feel free to <a href="#contact">say Hello </a> to me :)</p>
 
 <h3 style="margin-bottom:0px;">My Skills</h3>
@@ -26,6 +26,10 @@ I have lots of interests -- painting, photography, jogging, swimming, palying dr
 	<tbody>
 	<tr>
 		<th>Java</th>
+		<td><progress value="85" max="100"/></td>
+	</tr>
+	<tr>
+		<th>python</th>
 		<td><progress value="85" max="100"/></td>
 	</tr>
 	<tr>
@@ -101,7 +105,7 @@ I have lots of interests -- painting, photography, jogging, swimming, palying dr
 	</tbody>
 </table>
 <li class="tableli">The FramWorks I've worked with.</li> 
-<p style="margin: 0 60px;"><strong>Struts2・Spring・Seasar2・.Net・Angular</strong></p>
+<p style="margin: 0 60px;"><strong>Angular・Struts2・Spring・Seasar2・.Net</strong></p>
 
 <li class="tableli">Other Skills.</li>
 <table class="normal">
