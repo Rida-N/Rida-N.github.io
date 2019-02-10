@@ -154,7 +154,7 @@ I have lots of interests -- painting, photography, jogging, swimming, palying dr
 	</tr> 
 	<tr>
 		<th>TOEIC</th>
-		<td>780</td>
+		<td>825</td>
 	</tr>
 	</tbody>
 </table>
