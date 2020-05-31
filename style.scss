@@ -7,7 +7,7 @@
 
 @import "reset";
 @import "variables";
-@import 'lazyload';
+@import "lazyload";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -15,197 +15,220 @@
 /**************/
 
 html {
-font-size: 10px;
+  font-size: 10px;
 }
 
-body:not(.home){
-background: linear-gradient($lightPink -100%,$white 25%,$white 75%, $waterBlue 150%) ;
-background-attachment: fixed;
--webkit-animation: bgbody 1.5s ease;
--o-animation: bgbody 1.5s ease;
-animation: bgbody 1.5s ease;
+body:not(.home) {
+  background: linear-gradient(
+    $lightPink -100%,
+    $white 25%,
+    $white 75%,
+    $waterBlue 150%
+  );
+  background-attachment: fixed;
+  -webkit-animation: bgbody 1.5s ease;
+  -o-animation: bgbody 1.5s ease;
+  animation: bgbody 1.5s ease;
 }
 body {
-background: linear-gradient($white 75%, $waterBlue 130%) ;
-background-attachment: fixed;
-font: 1.5rem $helvetica;
-color: $darkGray;
-line-height:1.6;
--webkit-font-smoothing: antialiased;
--webkit-animation: bgbody 3s ease;
--o-animation: bgbody 3s ease;
-animation: bgbody 3s ease;
+  background: linear-gradient($white 75%, $waterBlue 130%);
+  background-attachment: fixed;
+  font: 1.5rem $helvetica;
+  color: $darkGray;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -webkit-animation: bgbody 3s ease;
+  -o-animation: bgbody 3s ease;
+  animation: bgbody 3s ease;
 }
 @keyframes bgbody {
-0%{
-opacity: 0;
-background-color: #ffffff;
-}
-100%{
-opacity: 1;
-}
+  0% {
+    opacity: 0;
+    background-color: #ffffff;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 1024px) {
-body:before{
-content: ' ';
-position: fixed;
-z-index: -1;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-background: linear-gradient($white 75%, $waterBlue 130%) ;
-background-size:100vw 100vh;
+  body:before {
+    content: " ";
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient($white 75%, $waterBlue 130%);
+    background-size: 100vw 100vh;
+  }
+  body:not(.home):before {
+    background: linear-gradient(
+      $lightPink -100%,
+      $white 25%,
+      $white 75%,
+      $waterBlue 130%
+    );
+  }
 }
-body:not(.home):before {
-background: linear-gradient($lightPink -100%,$white 25%,$white 75%, $waterBlue 130%) ;
-}  
-}
-
 
 .container {
-margin: 0 auto;
-max-width: 740px;
-padding: 0 10px;
-width: 100%;
-.post ,.page{
-padding:10px 20px;
-background: rgba(255,255,255,0.3);
-border-radius:2px;
-box-shadow: 0px 0px 2px #999;
-}
-.post{
-margin-bottom:20px;
-}
-}
-
-.post .entry{
-margin-bottom:30px;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+  .post,
+  .page {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px #999;
+  }
+  .post {
+    margin-bottom: 20px;
+  }
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-family: $helveticaNeue;
-color: $darkerGray;
-font-weight: bold;
-
-line-height: 1.7;
-margin: 1em 0 15px;
-padding: 0;
-
-@include mobile {
-line-height: 1.4;
+.post .entry {
+  margin-bottom: 30px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
 }
 
 h1 {
-font-size: 2.4rem;
-a {
-color: inherit;
-}
+  font-size: 2.4rem;
+  a {
+    color: inherit;
+  }
 }
 
 h2 {
-font-size: 2.2rem;
+  font-size: 2.2rem;
 }
 
 h3 {
-font-size: 2.0rem;
-padding:0 0 6px 8px;
-border-left:5px solid $red;
-border-bottom:1px solid #999;
-line-height:1.2;
+  font-size: 2rem;
+  padding: 0 0 6px 8px;
+  border-left: 5px solid $red;
+  border-bottom: 1px solid #999;
+  line-height: 1.2;
 }
 
 h4 {
-font-size: 1.8rem;
-color: $gray;
+  font-size: 1.8rem;
+  color: $gray;
 }
 
 p {
-margin: 15px 0;
+  margin: 15px 0;
 }
 
-a{
-color: $red;
-text-decoration: none;
-font-weight:500;
-cursor: pointer;
-&:hover, &:active {
-color: $lightRed;
-}
+a {
+  color: $red;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  &:hover,
+  &:active {
+    color: $lightRed;
+  }
 }
 
-ul, ol {
-margin: 15px 0;
-padding-left: 30px;
+ul,
+ol {
+  margin: 15px 0;
+  padding-left: 30px;
 }
 
 ul {
-list-style-type: disc;
+  list-style-type: disc;
 }
 
 ol {
-list-style-type: decimal;
+  list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
-margin: 0;
+ol ul,
+ul ol,
+ul ul,
+ol ol {
+  margin: 0;
 }
 
-ul ul, ol ul {
-list-style-type: circle;
+ul ul,
+ol ul {
+  list-style-type: circle;
 }
 
-em, i {
-font-style: italic;
+em,
+i {
+  font-style: italic;
 }
 
-strong, b {
-font-weight: bold;
+strong,
+b {
+  font-weight: bold;
 }
 
 img {
-max-width: 100%;
+  max-width: 100%;
 }
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
-max-width: none;
+  max-width: none;
 }
 
 .ordinaryiframe {
-width:500px;
-opacity:0.85;
-@include mobile {
-width:300px;
-}
+  width: 500px;
+  opacity: 0.85;
+  @include mobile {
+    width: 300px;
+  }
 }
 
 .date {
-font-style: italic;
-color: $gray;
+  font-style: italic;
+  color: $gray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-color: $black;
-background: $lightGray;
+  color: $black;
+  background: $lightGray;
 }
 ::selection {
-color: $black;
-background: $lightGray;
+  color: $black;
+  background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-content: " ";
-display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -217,166 +240,168 @@ clear: both;
 //
 
 .wrapper-masthead {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .masthead {
-padding: 20px 0;
-border-bottom: 1px solid $lightGray;
+  padding: 20px 0;
+  border-bottom: 1px solid $lightGray;
 
-@include mobile {
-text-align: center;
-}
+  @include mobile {
+    text-align: center;
+  }
 }
 
 .site-avatar {
-float: left;
-width: 70px;
-height: 70px;
-margin-right: 15px;
-:hover{
-opacity:0.7;
-}
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+  :hover {
+    opacity: 0.7;
+  }
 
-@include mobile {
-float: none;
-display: block;
-margin: 0 auto;
-}
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
 
-img {
-/* border-radius: 35px;
+  img {
+    /* border-radius: 35px;
 box-shadow: 0.5px 0.5px 3px #fff;*/
-}
+  }
 }
 
 .site-info {
-float: left;
+  float: left;
 
-@include mobile {
-float: none;
-display: block;
-margin: 0 auto;
-}
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .site-name {
-margin: 0;
-color: $darkGray;
-cursor: pointer;
-font-family: $helveticaNeue;
-font-weight: 300;
-font-size: 28px;
-letter-spacing: 1px;
+  margin: 0;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
 }
 
 .site-description {
-margin: -5px 0 0 0;
-color: $gray;
-font-size: 16px;
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 16px;
 
-@include mobile {
-margin: 3px 0;
-}
+  @include mobile {
+    margin: 3px 0;
+  }
 }
 
 nav {
-float: right;
-margin-top: 23px; // @TODO: Vertically middle align
-font-family: $helveticaNeue;
-font-size: 18px;
+  float: right;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $helveticaNeue;
+  font-size: 18px;
 
-@include mobile {
-float: none;
-margin-top: 9px;
-display: block;
-font-size: 16px;
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $darkGray;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $red;
+    }
+  }
 }
 
-a {
-margin-left: 20px;
-color: $darkGray;
-text-align: right;
-font-weight: 300;
-letter-spacing: 1px;
-
-@include mobile {
-margin: 0 10px;
-color: $red;
-}
-}
-}
-
-#homeContent{
-.banner{
-overflow: hidden;
-p{
-vertical-align:bottom;
-margin: 10px 30px 0 0;
-font-weight: 300;
-font-size: 80px;
-float: left;
-}
-a{
-color:#000;
-:hover{
-color:$lightRed;
-}
-}
-.img{
-@include mobile {
-overflow: hidden;
-height:100vw;
-max-height:750px; 
-img{width:100vw; 
-max-width:530px;
-float: right;}
-}
-float: right;
-width:530px; 
-height:580px; 
-}
-}
+#homeContent {
+  .banner {
+    overflow: hidden;
+    p {
+      vertical-align: bottom;
+      margin: 10px 30px 0 0;
+      font-weight: 300;
+      font-size: 80px;
+      float: left;
+    }
+    a {
+      color: #000;
+      :hover {
+        color: $lightRed;
+      }
+    }
+    .img {
+      @include mobile {
+        overflow: hidden;
+        height: 100vw;
+        max-height: 750px;
+        img {
+          width: 100vw;
+          max-width: 530px;
+          float: right;
+        }
+      }
+      float: right;
+      width: 530px;
+      height: 580px;
+    }
+  }
 }
 
 .posts > .post {
-padding-bottom: 2em;
-border-bottom: 1px solid $lightGray;
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-padding-bottom: 1em;
-border-bottom: none;
+  padding-bottom: 1em;
+  border-bottom: none;
 }
 
 .post {
-blockquote {
-margin: 1.8em .8em;
-border-left: 2px solid $gray;
-padding: 0.1em 1em;
-color: $gray;
-}
+  blockquote {
+    margin: 1.8em 0.8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+  }
 
-.comments {
-margin-top: 10px;
-}
+  .comments {
+    margin-top: 10px;
+  }
 
-.read-more {
-text-transform: uppercase;
-font-size: 15px;
-}
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
 }
 
 .wrapper-footer {
-margin-top: 50px;
-border-top: 1px solid #ddd;
-border-bottom: 1px solid #ddd;
-background-color: $lightGray;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
 }
 
 footer {
-padding: 20px 0;
-text-align: center;
+  padding: 20px 0;
+  text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
@@ -385,121 +410,128 @@ text-align: center;
 @import "svg-icons";
 
 /* [Portfolio] page start↓ */
-.gallery_box{
-overflow: hidden;
+.gallery_box {
+  overflow: hidden;
 }
-.gallery_box a{
-margin: 10px 30px 0 0;
-width: 180px;
-float: left;
-:hover{
-opacity:0.8;
-}
-.square{
-object-fit: cover;
-width: 180px;
-height: 180px;
-}
-img{
-border-radius:10px;
-box-shadow: 1px 1px 5px #999;
-}
+.gallery_box a {
+  margin: 10px 30px 0 0;
+  width: 180px;
+  float: left;
+  :hover {
+    opacity: 0.8;
+  }
+  .square {
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+  }
+  img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #999;
+  }
 }
 
-.portfolio-list{
-padding-bottom:30px;
-.myart{
-width:500px;
-border-radius: 10px;
-box-shadow: 1px 1px 5px #999;
-}
-.myart:hover{
-opacity:0.8;
-}
+.portfolio-list {
+  padding-bottom: 30px;
+  .myart {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #999;
+  }
+  .myart:hover {
+    opacity: 0.8;
+  }
 }
 
 /* [Portfolio] page end↑ */
 
 /* [About] page start↓ */
-.about-main{
-overflow: hidden;
+.about-main {
+  overflow: hidden;
 }
-.box-right{
-float: left;
+.box-right {
+  float: left;
 }
-.image-right{
-float: right;
-margin-right:30px;
-transform: rotate(7deg);
+.image-right {
+  float: right;
+  margin-right: 30px;
+  transform: rotate(7deg);
 }
 /* page end↑ */
 
 /* [draws] page start↓ */
-.draws{
-margin-bottom:30px;
+.draws {
+  margin-bottom: 30px;
 }
 /* page end↑ */
 
 /* [photos] page start↓ */
-.photos{
-margin-bottom:30px;
+.photos {
+  margin-bottom: 30px;
 }
 /* page end↑ */
 
-table.normal{
-margin-left: 60px;
-width:450px;
-border-collapse:separate;
-border-spacing:7px;
-@include mobile {
-margin:auto;
-width:80%;
+table.normal {
+  margin-left: 60px;
+  width: 450px;
+  border-collapse: separate;
+  border-spacing: 7px;
+  @include mobile {
+    margin: auto;
+    width: 80%;
+  }
 }
+table.normal caption {
+  text-align: left;
+  padding: 10px 0 20px 0;
 }
-table.normal caption{
-text-align: left;
-padding:10px 0 20px 0;
-}
-table.normal th,td{
-border-radius:5px;
-/*border: 1px solid #ccc;*/
-padding:2px 15px;
-vertical-align:middle; 
-}
-
-table.normal th{
-background: rgba(220,210,220,0.2);
-text-align: left;   
-}
-table.normal td{
-text-align: left;
+table.normal th,
+td {
+  border-radius: 5px;
+  /*border: 1px solid #ccc;*/
+  padding: 2px 15px;
+  vertical-align: middle;
 }
 
-.tableli{
-padding:20px 0 10px 20px ;
+table.normal th {
+  background: rgba(220, 210, 220, 0.2);
+  text-align: left;
+  width: 30rem;
+  padding: 0 2rem;
 }
 
-table.normal progress{
-background-color: rgb(220,210,220);
-border: 0;
-height: 5px;
-border-radius: 9px;
+table.normal td {
+  text-align: left;
 }
 
-table.certification{
-width:550px;
-@include mobile {
-margin:0;
-width:80%;
+.tableli {
+  padding: 20px 0 10px 20px;
 }
-} 
-table.certification td{
-margin:0;
-font-weight:500;
-} 
 
-.certification{
-/*img{
+table.normal progress {
+  background-color: rgb(220, 210, 220);
+  border: 0;
+  height: 5px;
+  border-radius: 9px;
+}
+
+table.certification {
+  width: 550px;
+  @include mobile {
+    margin: 0;
+    width: 80%;
+  }
+  th {
+    width: 40rem !important;
+  }
+}
+table.certification td {
+  margin: 0;
+  font-weight: 500;
+}
+
+.certification {
+  /*img{
 padding:0;
 margin:0;
 width:25px;
@@ -507,24 +539,24 @@ height:25px;
 border-radius:20px;
 box-shadow: 0px 0px 2px #999;
 }*/
-a{
-all: unset;
-padding:0;
-border:0;
-margin:0;
-}
-a::after{
-content:'';/*何も入れない*/
-display: inline-block;/*忘れずに！*/
-width: 15px;/*画像の幅*/
-height: 15px;/*画像の高さ*/
-background-image: url(images/icon/icon_link.svg);
-background-size: contain;
-vertical-align: middle;
-margin:0 5px;
-}
+  a {
+    all: unset;
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+  a::after {
+    content: ""; /*何も入れない*/
+    display: inline-block; /*忘れずに！*/
+    width: 15px; /*画像の幅*/
+    height: 15px; /*画像の高さ*/
+    background-image: url(images/icon/icon_link.svg);
+    background-size: contain;
+    vertical-align: middle;
+    margin: 0 5px;
+  }
 }
 
-*:target{
-background-color: rgb(220,210,220);
+*:target {
+  background-color: rgb(220, 210, 220);
 }

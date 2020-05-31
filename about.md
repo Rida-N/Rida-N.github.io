@@ -3,38 +3,47 @@ layout: page
 title: About
 permalink: /about/
 ---
+
 <div class="about-main">
 <img src="../images/me-sketch.png" class="image-right" style="width:150px" alt="">
 <div>
 	<h4>Rida Zhang</h4>
 <ul>
 <li>Chinese. From LianYunGang, JiangSu.</li>
-<li>35% Front-End developer + 45% Back-End developer + 20% Designer.</li>
+<li>45% Front-end developer + 35% Back-end developer + 20% Designer.</li>
 <li>I love all things that are simple and graceful.</li>
 </ul>
 </div>
 </div>
 
-### More Information 
+### More Information
 
-<p style="margin: 20px 15px 30px 20px;">I'm now working as a <b>freelance</b> Web Developer and Software Engineer (4+ years) in Tokyo, Japan. I'm interested in both front-end and back-end development. <br>
-I have lots of interests -- painting, photography, jogging, swimming, palying drums, reading, singing... and last year I just started FREELINE and Ski, now I really feel the fun and wish I had started earlier! If we happen to have a lot in common, feel free to <a href="#contact">say Hello </a> to me :)</p>
+<p style="margin: 20px 15px 30px 20px;">A Results-driven <b>Freelance</b> engineer with 6+ years application (5+ years Web app & 1 year Desktpo app) development experience. 
+<br>Currently based in Tokyo, Japan.<br><br> Skilled in
+front-end application development in JavaScript. Experienced with Angular & React. Adept with back-end development in
+JAVA, Python and C#. Also experienced in UX design using Photoshop and Illustrator. <br>Familiar
+with agile development, DevOps delivery. <br>Dedicated to improve efficiency, productivity, and user friendliness through learning new technologies and execution of innovation.
+Interested in both front-end and back-end development. <br><br>
+Besides, I have lots of interests -- painting, reading, photography, jogging, swimming, palying drums, singing, FREELINE and Ski... Secret of never getting bored ;)
 
 <h3 style="margin-bottom:0px;">My Skills</h3>
+<li class="tableli">The FramWorks I've worked with.</li> 
+<p style="margin: 0 60px;"><strong>React・Angular・Struts2・Spring・Seasar2・.Net</strong></p>
+
 <li class="tableli">The programming languages I've been working with.</li>
 <table class="normal">
 	<tbody>
+		<tr>
+		<th>Javascript</th>
+		<td><progress value="80" max="100"/></td>
+	</tr>
 	<tr>
 		<th>Java</th>
-		<td><progress value="85" max="100"/></td>
+		<td><progress value="75" max="100"/></td>
 	</tr>
 	<tr>
 		<th>python</th>
 		<td><progress value="85" max="100"/></td>
-	</tr>
-	<tr>
-		<th>Javascript</th>
-		<td><progress value="70" max="100"/></td>
 	</tr>
 	<tr>
 		<th>C#</th>
@@ -104,9 +113,6 @@ I have lots of interests -- painting, photography, jogging, swimming, palying dr
 	</tr> 
 	</tbody>
 </table>
-<li class="tableli">The FramWorks I've worked with.</li> 
-<p style="margin: 0 60px;"><strong>Angular・Struts2・Spring・Seasar2・.Net</strong></p>
-
 <li class="tableli">Other Skills.</li>
 <table class="normal">
 	<tbody>
@@ -126,10 +132,39 @@ I have lots of interests -- painting, photography, jogging, swimming, palying dr
 </table>
 <br>
 
-### Certification
+<h3 style="margin-bottom:0px;"> Work Experence  </h3>
+
+<li class="tableli">Front-end Engineer, <strong>Aiforce.solutions. Chiyoda, Tokyo</strong> (Sep. 2019 – Mar. 2020)</li>
+<p style="margin: 0 60px;">Main front-end developer. Using React, JavaScript, TypeScript Html5 and CSS3.</p>
+<li class="tableli">Front-end Engineer, <strong>e-reverse. Toyosu, Tokyo</strong> (Apr. 2019 – Aug. 2019)</li>
+<p style="margin: 0 60px;">Implement new features and improve existing ones with Angular and TypeScript.</p>
+<li class="tableli">Software Engineer, <strong>SoftBank Robotics. Shiodome, Tokyo</strong> (Oct. 2017 – Mar. 2019)</li>
+<p style="margin: 0 60px;">I was in charge of the UX design, front-end development and part of the back-end API
+development of the Robot Suite system</p>
+<li class="tableli">Back-end Developer, <strong>HIS. Akihabara, Tokyo</strong> (Jun. 2016 – Jul. 2017)</li>
+<p style="margin: 0 60px;">Participate as a developer of the HIS group travel information management system that
+handles processes from creating projects to estimating and receiving travel reservation
+orders. I was mainly in charge of the system improve development and maintenance.</p>
+<li class="tableli">Software Developer, <strong>Mitsubishi UFJ. Nakano, Tokyo</strong> (Oct. 2015 – Mar. 2016)</li>
+<p style="margin: 0 60px;">Develop function pages logic and business logic using C#, HTML, JavaScript, CSS3.</p>
+<li class="tableli">Software Developer, <strong>Chiba System Consultant. Chiba, Tokyo</strong> (Jun. 2015 – Sep. 2015)</li>
+<p style="margin: 0 60px;">Participate in function pages and business logic development and program modiﬁcation using Java, Javascript, HTML5, CSS3, JQuery and Seasar2 framwork.</p>
+<li class="tableli">Software and Test engineer, <strong>Wicresoft. Shanghai, China</strong> (Mar. 2013 – Mar. 2014)</li>
+<p style="margin: 0 60px;">Maintenance retail management function module using C#. Implement automation test according to specs.</p>
+<br>
+
+<h3 > Certification </h3>
 
 <table class="certification normal">
 	<tbody>
+	<tr>
+		<th><a href="http://www.jlpt.jp/e/index.html">JLPT (Japanese-Language Proficiency Test)</a></th>
+		<td>N1</td>
+	</tr> 
+	<tr>
+		<th>TOEIC</th>
+		<td>825</td>
+	</tr>
 	<tr>
 		<th><a href="https://ja.wikipedia.org/wiki/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93">Fundamental Information Technology Engineer Examination(基本情報技術者試験)</a></th>
 		<td colspan="2">Qualified</td>
@@ -148,22 +183,17 @@ I have lots of interests -- painting, photography, jogging, swimming, palying dr
 		<td>Expert</td>
 		<td style="background: url(../images/certi/webexpert.jpeg) left no-repeat; background-size:25px 25px;"></td>
 	</tr>
-	<tr>
-		<th><a href="http://www.jlpt.jp/e/index.html">JLPT (Japanese-Language Proficiency Test)</a></th>
-		<td>N1</td>
-	</tr> 
-	<tr>
-		<th>TOEIC</th>
-		<td>825</td>
-	</tr>
 	</tbody>
 </table>
 
-### Education
+<br>
+<h3 style="margin-bottom:0px;"> Education </h3>
+
 <li class="tableli">Bachelor degree</li>
 <p style="margin: 0 60px;"><strong>2009 - 2013 • HOHAI UNIVERSITY • Computer Science And Technology</strong></p>
+<li class="tableli">Others</li>
+<p style="margin: 0 60px;"><strong>2014 - 2015 • MEROS LANGUAGE SCHOOL • Japanese</strong></p>
 
 <br>
-<h3 id="contact"> Contact me / Hire me </h3>
+<h3 id="contact"> Contact me </h3>
 <a style="padding-left: 30px;" href="mailto:im@rida.site">im@rida.site</a>
-
