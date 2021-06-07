@@ -9,7 +9,8 @@ permalink: /about/
 <div>
 	<h4>Rida Zhang</h4>
 <ul>
-<li>Chinese. From LianYunGang, JiangSu.</li>
+<Li>Currently based in JiangSu, China.</li>
+<li>Founder of <a href="https://tecwaver.com">Tecwaver.</a></li>
 <li>45% Front-end developer + 35% Back-end developer + 20% Designer.</li>
 <li>I love all things that are simple and graceful.</li>
 </ul>
@@ -18,13 +19,13 @@ permalink: /about/
 
 ### More Information
 
-<p style="margin: 20px 15px 30px 20px;">A Results-driven <b>Freelance</b> engineer with 6+ years application (5+ years Web app & 1 year Desktpo app) development experience. 
-<br>Currently based in Tokyo, Japan.<br><br> Skilled in
-front-end application development in JavaScript. Experienced with Angular & React. Adept with back-end development in
+<p style="margin: 20px 15px 30px 20px;">Used to be a Results-driven <b>Freelance</b> engineer with 7+ years application (6+ years Web app & 1 year Desktpo app) development experience. 
+<br> Skilled in
+front-end application development in JavaScript. Experienced in Angular & React. Adept at back-end development in
 JAVA, Python and C#. Also experienced in UX design using Photoshop and Illustrator. <br>Familiar
 with agile development, DevOps delivery. <br>Dedicated to improve efficiency, productivity, and user friendliness through learning new technologies and execution of innovation.
 Interested in both front-end and back-end development. <br><br>
-Besides, I have lots of interests -- painting, reading, photography, jogging, swimming, palying drums, singing, FREELINE and Ski... Secret of never getting bored ;)
+Besides, I have lots of interests -- painting, reading, photography, jogging, swimming, palying drums, singing, FREELINE and Ski...
 
 <h3 style="margin-bottom:0px;">My Skills</h3>
 <li class="tableli">The FramWorks I've worked with.</li> 
@@ -133,7 +134,10 @@ Besides, I have lots of interests -- painting, reading, photography, jogging, sw
 <br>
 
 <h3 style="margin-bottom:0px;"> Work Experence  </h3>
-
+<li class="tableli">Founder, <strong>Tecwaver. JiangSu, China</strong> (2021 - )</li>
+<p style="margin: 0 60px;">Fullstack Developer & Designer ... (Doing almost everything before exhausted)</p>
+<li class="tableli">Front-end Engineer, <strong>Emotion-tech. Chiyoda, Tokyo</strong> (May. 2020 – Nov. 2020)</li>
+<p style="margin: 0 60px;">Main front-end developer. Optimize existing and develop new functions using Angular, TypeScript(JavaScript) Html5 and CSS3.</p>
 <li class="tableli">Front-end Engineer, <strong>Aiforce.solutions. Chiyoda, Tokyo</strong> (Sep. 2019 – Mar. 2020)</li>
 <p style="margin: 0 60px;">Main front-end developer. Using React, JavaScript, TypeScript Html5 and CSS3.</p>
 <li class="tableli">Front-end Engineer, <strong>e-reverse. Toyosu, Tokyo</strong> (Apr. 2019 – Aug. 2019)</li>
